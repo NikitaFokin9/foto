@@ -1,0 +1,36 @@
+.pick2 {
+    width: 95%;
+    padding: 10%;
+    height: 200px;
+}
+
+.pick3 {
+    width: 95%;
+    padding: 10%;
+}
+
+.Text{
+color: aliceblue;
+}
+
+
+.portfolio-section {
+    display: grid;
+    margin: 15px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 15px;
+}
+
+.portfolio-item {
+    display: grid;
+    min-height: 45vh; 
+    background-size: cover; 
+    background-position: center; 
+    text-align: center;
+    align-content: center;
+    font-family: "Courier New",serif;
+    color:rgb(231, 231, 231);
+    font-size: 140%;
+
+
+}
